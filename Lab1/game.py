@@ -67,7 +67,6 @@ class Game:
         # and self.winner_combo in case of winning combo.
         # Hint: you can scan pre-computed winning combos in self._winning_combos
 
-
     def has_winner(self):
         """Return True if the game has a winner, and False otherwise."""
         return self._has_winner
